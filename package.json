@@ -1,8 +1,9 @@
 {
 	"name": "fmentor-single-price-nodejs-express-handlebars",
+	"private": true,
 	"version": "1.0.0",
-	"description": "single price grid component using nodejs, express, and handlebars",
-	"main": "app.js",
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
 	"scripts": {
 		"start": "nodemon app.js",
 		"start-server": "node app.js",
@@ -14,16 +15,6 @@
 		"lint": "run-s prettier",
 		"build": "run-s lint sass-prod postcss"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/al3xback/fmentor-single-price-nodejs-express-handlebars.git"
-	},
-	"author": "alex <al3xback@gmail.com>",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/al3xback/fmentor-single-price-nodejs-express-handlebars/issues"
-	},
-	"homepage": "https://github.com/al3xback/fmentor-single-price-nodejs-express-handlebars#readme",
 	"dependencies": {
 		"body-parser": "^1.20.2",
 		"express": "^4.18.2",
